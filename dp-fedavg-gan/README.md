@@ -8,6 +8,8 @@ Change `DATASET_NAME` in line 2 of `constants.py` to select a certain dataset. `
 
 Modify `HyperParam` in `util.py` to fine tune the training process. The parameters are quite self-documented.
 
+Execute ``` python dp_fedavg_gan.py ```. Explore dp_fedavg_gan.py for details.
+
 
 ## Output
 Synthesized table is saved as `syn_path`.
