@@ -3,22 +3,6 @@ DP-FedAvg-GAN is a GAN model adapted for tabular data based on the algorithm pro
 
 
 ## Usage
-The dataset directory should be arranged as the following.
-```
-- adult
-    |
-    |- adult_train.csv
-    |
-    |- adult_test.csv
-    |
-    |- adult.json
-    |
-    |- education_0.csv
-    |
-    |- education_1.csv
-    |
-    |- education_2.csv
-```
 
 Change `DATASET_NAME` in line 2 of `constants.py` to select a certain dataset. `adult`, `clinical`, `covtype`, `credit` and `intrusion` are supported by default. Toggle `auto_split` in line 17 of `dp_fedavg_gan.py` to switch between an even split (True) or a biased split (False).
 
